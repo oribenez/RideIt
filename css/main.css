@@ -1,0 +1,365 @@
+﻿* {
+    margin: 0;
+}
+
+::-moz-selection
+{
+    background-color: rgb(121, 121, 121);
+    color:#fff;
+}
+
+::selection{
+    background-color: rgb(121, 121, 121);
+    color:#fff;
+}
+
+body {
+    font-family: Tahoma,Arial,Gisha;
+    font-size: 16px;
+    background: url(../images/bg.png);
+    color: #626262;
+    margin: 0 auto;
+}
+html, body {
+	height: 100%;
+}
+.main {
+    margin:0 auto;
+    width: 960px;
+    position: relative;
+}
+
+/*--Table--*/
+#tableWrapper {
+    background: #fff;
+    padding: 5px;
+}
+
+table {
+    font-family: Arial,Tahoma;
+}
+
+.oddEven {
+    color: #4d4d4d;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Tahoma;
+    text-align: center;
+    font-size: 12px;
+}
+
+.trFirstRow {
+    background-color: #333333;
+    font-size: 14px;
+    padding: 8px 8px 8px 8px; 
+    text-align: center;
+    color: #fff;
+}
+tr.odd:hover {
+    background:#2980a9;
+    color:#fff;
+}
+
+.odd input:hover{
+    color:#fff;
+}
+.even input:hover{
+    color:#fff;
+}
+ tr.odd:hover a {
+    color:#fff;
+}
+ tr.even:hover {
+    background:#2980a9;
+    color:#fff;
+}
+ tr.even:hover a {
+    color:#fff;
+}
+td {
+    padding: 8px 8px 8px 8px; 
+}
+    td a {
+        display: block;
+    }
+
+.odd {
+    background: #eeeeee;
+}
+
+.even {
+    background: #fff;
+}
+/*--Table--*/
+
+form {
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+    color: #626262;
+}
+
+h1 {
+    color: #565045;
+    font-size: 30px;
+    font-weight: normal;
+    margin: 5px 0 15px 0;
+}
+
+h2 {
+    color: #565045;
+    font-size: 18px;
+    font-weight: normal;
+    margin: 16px 0 3px 0;
+}
+
+h3 {
+    color: #aea586;
+    font-size: 13px;
+    font-weight: normal;
+    margin: 16px 0 3px 0;
+}
+
+h4 {
+    color: #67bf8a;
+    font-size: 32px;
+    font-weight: normal;
+    font-family: Gisha, Tahoma,Arial;
+    margin: 0;
+}
+
+p {
+    color: #aea586;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0;
+}
+
+input {
+    background: rgb(255,255,255) none;
+    border: solid 1px grey;
+    padding: 4px 5px;
+    outline: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+    
+input[type=submit], input[type=reset],input[type=button] { /*----input that his properties is type="submit"----*/
+    background: #5f584f;
+    color: whitesmoke;
+    font-family: Tahoma;
+}
+
+select {
+    background: rgb(255,255,255) none;
+    border: solid 1px grey;
+    padding: 4px 5px;
+    outline: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+textarea {
+    background: rgb(255,255,255) none;
+    border: solid 1px grey;
+    padding: 4px 5px;
+    outline: 0;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+}
+
+/*Header*/
+#header {
+    background: url("../images/header_container.png");
+    width: 100%;
+    height: 80px;
+    position: fixed;
+    z-index: 1000;
+    font-size: 19px;
+}
+
+#shadow {
+    background: url(../images/header_shadow.png)repeat-x;
+    margin: 76px 0 0 0;
+    height:12px;
+    width: 100%;
+}
+
+#header_stripe 
+{
+    background: #3cb878 repeat-x;
+    height: 4px
+}
+
+#logo {
+    background: url("../images/logo.png");
+    width: 48px;
+    height: 45px;
+    margin: 13px 0px 0px 0px;
+    float: left;
+}
+
+#logo2 {
+    background: url("../images/logo2.png");
+    width: 100px;
+    height: 27px;
+    margin: 32px 0px 0px 16px;
+    float: left;
+}
+
+#nav {
+    color: #626262;
+    margin: 28px 0px 0px 0px;
+    float: right;
+}
+
+/*Section*/
+#section {
+    width: 1000px;
+    background: #f6f6ef;
+    padding: 95px 0px 0px 0px;
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -3em;
+}
+
+#user_pnl {
+    font-size: 14px;
+    margin: 0 0 6px 0;
+    text-align: left;
+}
+
+#random_img {
+    margin: 5px 0px 0px 0px;
+}
+
+#article {
+    font-family: Gisha, Tahoma, Arial;
+}
+
+#divider {
+    background: #d1cbbf repeat-x;
+    height: 2px;
+    margin: 20px 0 0 0;
+}
+
+.block {
+    margin: 0 0 0 30px;
+    width: 290px;
+    height: 189px;
+    float: right;
+}
+
+/*Register*/
+#tablet {
+    font-size: 16px;
+    line-height: 30px;
+    float: right;
+    margin: 0px 23px 0 0;
+}
+
+#img_bicycleRide {
+    margin: 0 511px 0 66px;
+    float: left;
+    position: absolute;
+}
+
+/*Register*/
+
+
+/*Tips*/
+.tips_block {
+    border: solid 1px #b7b7b7;
+    background: #fff;
+    width: 788px;
+    height: 223px;
+    margin: 0 0 40px 0;
+}
+
+.decoration {
+    background: url("../images/decoration.png");
+    width: 31px;
+    height: 223px;
+    margin: 0 1px 0 0;
+    float: right;
+}
+.tipDate {
+    float: left;
+    margin: -5px 0 0px 14px;
+    font-size: 11.5px;
+}
+
+.tips_divider {
+    background: url("../images/tips_div.png") repeat-x;
+    width: 701px;
+    height: 3px;
+    margin: 15px 0 0 0;
+}
+
+.content {
+    margin: 14px 14px 0 0;
+    float: right;
+}
+
+.tips_main_content {
+    margin: 10px 0 0 0;
+    width: 701px;
+    height: 121px;
+}
+
+.tips_pic {
+    float: right;
+}
+
+.tips_text {
+    float: right;
+    width: 518px;
+    margin: 0 13px 0 0;
+    font-size: 14.66px;
+    font-family: Arial, Tahoma, Gisha;
+    line-height: 23px
+
+}
+
+.tips_continue {
+    font-size: 17.57px;
+    font-family: Arial, Tahoma, Gisha;
+    float: left;
+    position: absolute;
+    margin: 188px 698px 0 0;
+}
+
+/*Tips*/
+
+
+/*Footer*/
+
+#footer {
+    background: url("../images/bg2.png");
+    min-width: 980px;
+    height: 64px;
+}
+#push {
+height: 12em;
+clear: both;
+}
+
+
+#copyright {
+    color: #edebe4;
+    font-size: 14px;
+    margin: 27px 0 0 0;
+    float: right;
+}
+
+#follow {
+    margin: 7px 0 0 0;
+    float: left;
+}

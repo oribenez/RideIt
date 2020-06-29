@@ -1,0 +1,24 @@
+﻿body {
+}
+
+#contentWrapper {
+    line-height: 31px;
+    font-family: arial,tahoma;
+    font-size: 16px;
+}
+
+#contentWrapper a{
+    color: #67bf8a;
+}
+
+ #contentWrapper a:hover{
+    text-decoration: underline;
+}
+
+#contentWrapper img {
+    float: left;
+    margin: 34px;
+    box-shadow: gray 3px 5px 12px;
+}
+
+

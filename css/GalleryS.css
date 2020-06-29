@@ -1,0 +1,19 @@
+﻿.imgWrapper {
+    background: url(../images/bg2.png);
+    width: 230px;
+    height: 220px;
+    margin: 0px 35px 28px 35px;
+    padding: 18px 16px 0 0;
+    float: right;
+    border: solid grey 1px;
+}
+
+    .imgWrapper img {
+        border: solid white 1px;
+    }
+
+.picName {
+    font-weight: bold;
+    font-size: 14px;
+    color: whitesmoke;
+}

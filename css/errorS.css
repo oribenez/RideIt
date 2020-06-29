@@ -1,0 +1,40 @@
+﻿body {
+    background: url(../images/bg2.png);
+    font-family: Tahoma,Arial,Gisha;
+    font-size: 19px;
+    color: #e1e1e1;
+    margin: 0 auto;
+}
+
+h1 {
+    color: #a6a29a;
+    font-size: 27px;
+    font-weight: normal;
+    margin: 16px 0 3px 0;
+}
+
+p {
+    font-size: 15px;
+    font-weight: normal;
+    line-height: 26px;
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: #0a141c;
+}
+
+#main {
+    margin: 0 auto;
+    width: 250px;
+}
+
+#logo {
+    margin: 70px 0 0 0;
+}
+
+#errMsg {
+    margin: 0 auto;
+    text-align: center;
+}

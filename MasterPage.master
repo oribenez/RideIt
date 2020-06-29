@@ -1,0 +1,71 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html dir="rtl" xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>Ride It</title>
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <link href="css/main.css" rel="stylesheet" type="text/css" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+</head>
+<body>
+
+    <form id="form1" runat="server" enctype="multipart/form-data">
+
+        <div id="header">
+            <div id="header_stripe"></div>
+            <div class="main">
+
+                <div id="logo"></div>
+                <div id="logo2"></div>
+
+                <div id="nav">
+                    <a href="Main.aspx">דף הבית</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Tips.aspx?page=1">טיפים</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Routes.aspx?page=1">מסלולים</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Rides.aspx">רכיבות</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="Gallery.aspx">גלריה</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="InfoPages.aspx">מידע</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                </div>
+
+            </div>
+            <div id="shadow"></div>
+        </div>
+
+        <div id="section">
+            <div class="main">
+
+                <asp:ContentPlaceHolder ID="SectionContentPlaceHolder" runat="server">
+                </asp:ContentPlaceHolder>
+
+                <div id="push"></div>
+            </div>
+
+        </div>
+
+        <div id="footer">
+            <div class="main">
+
+                <div id="copyright">This site was built by Ori.NET | מספר מבקרים: <%=Application["visitors"] %></div>
+                <div id="follow">
+
+                    <a href="http://www.twitter.com">
+                        <img src="images/twitter.png" alt="" id="twitter_follow" border="0" width="40" height="40" /></a>
+
+                    <img src="images/divider02.png" alt="" id="divider02" border="0" />
+
+                    <a href="http://www.facebook.com">
+                        <img src="images/facebook.png" alt="" id="facebook_follow" border="0" width="35" height="35" /></a>
+
+                </div>
+
+            </div>
+        </div>
+
+    </form>
+
+</body>
+</html>

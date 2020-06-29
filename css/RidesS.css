@@ -1,0 +1,55 @@
+﻿body {
+}
+
+#tableWrapper {
+    background: #fff;
+    padding: 5px;
+}
+
+.oddEven {
+    color: #4d4d4d;
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, Tahoma;
+    text-align: center;
+    font-size: 12px;
+}
+
+.trFirstRow {
+    background-color: #333333;
+    font-size: 14px;
+    padding: 8px 8px 8px 8px; 
+    text-align: center;
+    color: #fff;
+}
+tr.odd:hover {
+    background:#2980a9;
+
+}
+
+ tr.odd:hover a {
+    color:#fff;
+
+}
+ tr.even:hover {
+    background:#2980a9;
+
+}
+ tr.even:hover a {
+    color:#fff;
+
+}
+td {
+    padding: 8px 8px 8px 8px; 
+}
+    td a {
+        display: block;
+    }
+
+.odd {
+    background: #eeeeee;
+}
+
+.even {
+    background: #fff;
+}
